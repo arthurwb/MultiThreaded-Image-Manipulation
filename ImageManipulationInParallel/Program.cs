@@ -72,7 +72,6 @@ namespace ImageManipulationInParallel
             Parallel.Invoke(
                 () =>
                 {
-                    //                    Console.WriteLine("Begin first task...");
                     Color color, newColor;
                     for (int i = 0; i < bitmap01.Width; i++) {
                         for (int k = 0; k < bitmap01.Height; k++) {
